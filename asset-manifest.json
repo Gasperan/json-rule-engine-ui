@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Gasperan/json-rule-engine-ui.git/static/css/main.f1a53ea3.chunk.css",
+    "main.js": "/Gasperan/json-rule-engine-ui.git/static/js/main.55912ff9.chunk.js",
+    "main.js.map": "/Gasperan/json-rule-engine-ui.git/static/js/main.55912ff9.chunk.js.map",
+    "runtime-main.js": "/Gasperan/json-rule-engine-ui.git/static/js/runtime-main.0430b1c8.js",
+    "runtime-main.js.map": "/Gasperan/json-rule-engine-ui.git/static/js/runtime-main.0430b1c8.js.map",
+    "static/js/2.f3daf70d.chunk.js": "/Gasperan/json-rule-engine-ui.git/static/js/2.f3daf70d.chunk.js",
+    "static/js/2.f3daf70d.chunk.js.map": "/Gasperan/json-rule-engine-ui.git/static/js/2.f3daf70d.chunk.js.map",
+    "index.html": "/Gasperan/json-rule-engine-ui.git/index.html",
+    "precache-manifest.0c615567dced22390527a7dfb46261a9.js": "/Gasperan/json-rule-engine-ui.git/precache-manifest.0c615567dced22390527a7dfb46261a9.js",
+    "service-worker.js": "/Gasperan/json-rule-engine-ui.git/service-worker.js",
+    "static/css/main.f1a53ea3.chunk.css.map": "/Gasperan/json-rule-engine-ui.git/static/css/main.f1a53ea3.chunk.css.map",
+    "static/js/2.f3daf70d.chunk.js.LICENSE.txt": "/Gasperan/json-rule-engine-ui.git/static/js/2.f3daf70d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0430b1c8.js",
+    "static/js/2.f3daf70d.chunk.js",
+    "static/css/main.f1a53ea3.chunk.css",
+    "static/js/main.55912ff9.chunk.js"
+  ]
+}
