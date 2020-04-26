@@ -2,6 +2,7 @@
   width: 150px;
   height: 80px;
   display: flex;
+  flex-direction: column;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -12,6 +13,26 @@
   background-color: #61dafb;
 }
 
+.node-title {
+  display: flex;
+  flex: 0.7;
+  justify-content: center;
+  align-items: center;
+}
+
+.node-button-section {
+  display: flex;
+}
+
+.add-condition {
+  display: flex;
+  background-color: violet;
+}
+
+.add-bin-op {
+  display: flex;
+  background-color: khaki;
+}
 .separator {
   margin-left: 50px;
 }

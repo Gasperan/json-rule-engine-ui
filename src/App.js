@@ -22,8 +22,6 @@ function App() {
     };
 
     const currentChilds = _.get(tree[0], nodeName);
-    console.log("nodeName -> ", nodeName);
-    console.log("currentChilds -> ", currentChilds);
     currentChilds.push(leaf);
     const newStructure = _.set(tree[0], nodeName, currentChilds);
     setTree([newStructure]);
@@ -44,21 +42,27 @@ function App() {
       <div style={{ marginLeft: 50 }}>
         {tree.map((node, index) => {
           const { fact, operator, value } = node;
-          console.log("index-> ", index);
           if (fact) {
-            return <Leaf fact={fact} operator={operator} value={value} />;
+            return (
+              <Leaf key={index} fact={fact} operator={operator} value={value} />
+            );
           } else {
             const nodeName = Object.keys(node);
-            const newName = level + nodeName[0] + "[" + index + "]";
+            let newName = level + "[" + index + "]." + nodeName[0];
+
+            if (newName.startsWith("[")) {
+              newName = newName.substring(4, newName.length);
+            }
             return (
               <div>
                 <Node
-                  name={level + nodeName[0]}
+                  key={index}
+                  name={newName}
                   position={index}
                   callback={insertNode}
                   onDobleClick={insertLeaf}
                 />
-                {renderChilds(node[nodeName], nodeName[0] + "[" + 2 + "].")}
+                {renderChilds(node[nodeName], newName)}
               </div>
             );
           }
