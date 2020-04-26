@@ -14,7 +14,7 @@ const basic = {
 function App() {
   const [tree, setTree] = useState([basic]);
 
-  const insertNode = (level, nodeName, position) => {
+  const insertNode = (nodeName) => {
     const leaf = {
       fact: "tipotarjeta",
       operator: "equal",
