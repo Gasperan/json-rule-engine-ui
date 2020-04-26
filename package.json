@@ -1,7 +1,7 @@
 {
-  "name": "rule-engine-component",
+  "name": "json-rule-engine-ui",
   "version": "0.1.0",
-  "homepage": "https://gasperan.github.io/rule-engine-component",
+  "homepage": "https://gasperan.github.io/json-rule-engine-ui",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
