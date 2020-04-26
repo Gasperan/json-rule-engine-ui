@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/json-rule-engine-ui/static/css/main.f1a53ea3.chunk.css",
-    "main.js": "/json-rule-engine-ui/static/js/main.52e855be.chunk.js",
-    "main.js.map": "/json-rule-engine-ui/static/js/main.52e855be.chunk.js.map",
-    "runtime-main.js": "/json-rule-engine-ui/static/js/runtime-main.e2bf42da.js",
-    "runtime-main.js.map": "/json-rule-engine-ui/static/js/runtime-main.e2bf42da.js.map",
-    "static/js/2.f3daf70d.chunk.js": "/json-rule-engine-ui/static/js/2.f3daf70d.chunk.js",
-    "static/js/2.f3daf70d.chunk.js.map": "/json-rule-engine-ui/static/js/2.f3daf70d.chunk.js.map",
-    "index.html": "/json-rule-engine-ui/index.html",
-    "precache-manifest.835e60917f387189ba35f96df2398f22.js": "/json-rule-engine-ui/precache-manifest.835e60917f387189ba35f96df2398f22.js",
-    "service-worker.js": "/json-rule-engine-ui/service-worker.js",
-    "static/css/main.f1a53ea3.chunk.css.map": "/json-rule-engine-ui/static/css/main.f1a53ea3.chunk.css.map",
-    "static/js/2.f3daf70d.chunk.js.LICENSE.txt": "/json-rule-engine-ui/static/js/2.f3daf70d.chunk.js.LICENSE.txt"
+    "main.css": "/rule-engine-component/static/css/main.f1a53ea3.chunk.css",
+    "main.js": "/rule-engine-component/static/js/main.cec958ed.chunk.js",
+    "main.js.map": "/rule-engine-component/static/js/main.cec958ed.chunk.js.map",
+    "runtime-main.js": "/rule-engine-component/static/js/runtime-main.f56f9b59.js",
+    "runtime-main.js.map": "/rule-engine-component/static/js/runtime-main.f56f9b59.js.map",
+    "static/js/2.f3daf70d.chunk.js": "/rule-engine-component/static/js/2.f3daf70d.chunk.js",
+    "static/js/2.f3daf70d.chunk.js.map": "/rule-engine-component/static/js/2.f3daf70d.chunk.js.map",
+    "index.html": "/rule-engine-component/index.html",
+    "precache-manifest.1f1553682417d3e890516016b085968a.js": "/rule-engine-component/precache-manifest.1f1553682417d3e890516016b085968a.js",
+    "service-worker.js": "/rule-engine-component/service-worker.js",
+    "static/css/main.f1a53ea3.chunk.css.map": "/rule-engine-component/static/css/main.f1a53ea3.chunk.css.map",
+    "static/js/2.f3daf70d.chunk.js.LICENSE.txt": "/rule-engine-component/static/js/2.f3daf70d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2bf42da.js",
+    "static/js/runtime-main.f56f9b59.js",
     "static/js/2.f3daf70d.chunk.js",
     "static/css/main.f1a53ea3.chunk.css",
-    "static/js/main.52e855be.chunk.js"
+    "static/js/main.cec958ed.chunk.js"
   ]
 }
