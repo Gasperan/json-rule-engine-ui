@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Gasperan/json-rule-engine-ui.git/static/css/main.f1a53ea3.chunk.css",
-    "main.js": "/Gasperan/json-rule-engine-ui.git/static/js/main.55912ff9.chunk.js",
-    "main.js.map": "/Gasperan/json-rule-engine-ui.git/static/js/main.55912ff9.chunk.js.map",
-    "runtime-main.js": "/Gasperan/json-rule-engine-ui.git/static/js/runtime-main.0430b1c8.js",
-    "runtime-main.js.map": "/Gasperan/json-rule-engine-ui.git/static/js/runtime-main.0430b1c8.js.map",
-    "static/js/2.f3daf70d.chunk.js": "/Gasperan/json-rule-engine-ui.git/static/js/2.f3daf70d.chunk.js",
-    "static/js/2.f3daf70d.chunk.js.map": "/Gasperan/json-rule-engine-ui.git/static/js/2.f3daf70d.chunk.js.map",
-    "index.html": "/Gasperan/json-rule-engine-ui.git/index.html",
-    "precache-manifest.0c615567dced22390527a7dfb46261a9.js": "/Gasperan/json-rule-engine-ui.git/precache-manifest.0c615567dced22390527a7dfb46261a9.js",
-    "service-worker.js": "/Gasperan/json-rule-engine-ui.git/service-worker.js",
-    "static/css/main.f1a53ea3.chunk.css.map": "/Gasperan/json-rule-engine-ui.git/static/css/main.f1a53ea3.chunk.css.map",
-    "static/js/2.f3daf70d.chunk.js.LICENSE.txt": "/Gasperan/json-rule-engine-ui.git/static/js/2.f3daf70d.chunk.js.LICENSE.txt"
+    "main.css": "/json-rule-engine-ui/static/css/main.f1a53ea3.chunk.css",
+    "main.js": "/json-rule-engine-ui/static/js/main.52e855be.chunk.js",
+    "main.js.map": "/json-rule-engine-ui/static/js/main.52e855be.chunk.js.map",
+    "runtime-main.js": "/json-rule-engine-ui/static/js/runtime-main.e2bf42da.js",
+    "runtime-main.js.map": "/json-rule-engine-ui/static/js/runtime-main.e2bf42da.js.map",
+    "static/js/2.f3daf70d.chunk.js": "/json-rule-engine-ui/static/js/2.f3daf70d.chunk.js",
+    "static/js/2.f3daf70d.chunk.js.map": "/json-rule-engine-ui/static/js/2.f3daf70d.chunk.js.map",
+    "index.html": "/json-rule-engine-ui/index.html",
+    "precache-manifest.835e60917f387189ba35f96df2398f22.js": "/json-rule-engine-ui/precache-manifest.835e60917f387189ba35f96df2398f22.js",
+    "service-worker.js": "/json-rule-engine-ui/service-worker.js",
+    "static/css/main.f1a53ea3.chunk.css.map": "/json-rule-engine-ui/static/css/main.f1a53ea3.chunk.css.map",
+    "static/js/2.f3daf70d.chunk.js.LICENSE.txt": "/json-rule-engine-ui/static/js/2.f3daf70d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0430b1c8.js",
+    "static/js/runtime-main.e2bf42da.js",
     "static/js/2.f3daf70d.chunk.js",
     "static/css/main.f1a53ea3.chunk.css",
-    "static/js/main.55912ff9.chunk.js"
+    "static/js/main.52e855be.chunk.js"
   ]
 }
