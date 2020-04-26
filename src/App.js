@@ -15,54 +15,56 @@ function App() {
   const [tree, setTree] = useState([basic]);
 
   const insertNode = (nodeName) => {
-    const leaf = {
+    insertGeneric(nodeName, {
       fact: "tipotarjeta",
       operator: "equal",
       value: "CMR",
-    };
-
-    const currentChilds = _.get(tree[0], nodeName);
-    currentChilds.push(leaf);
-    const newStructure = _.set(tree[0], nodeName, currentChilds);
-    setTree([newStructure]);
+    });
   };
 
   const insertLeaf = (nodeName) => {
-    const all = {
+    insertGeneric(nodeName, {
       all: [],
-    };
+    });
+  };
+
+  const insertGeneric = (nodeName, node) => {
     const currentChilds = _.get(tree[0], nodeName);
-    currentChilds.push(all);
+    currentChilds.push(node);
     const newStructure = _.set(tree[0], nodeName, currentChilds);
     setTree([newStructure]);
   };
 
-  const renderChilds = (tree, level) => {
+  const renderChilds = (tree, path) => {
     return (
       <div style={{ marginLeft: 50 }}>
         {tree.map((node, index) => {
           const { fact, operator, value } = node;
           if (fact) {
             return (
-              <Leaf key={index} fact={fact} operator={operator} value={value} />
+              <Leaf
+                key={index + new Date().getTime()}
+                fact={fact}
+                operator={operator}
+                value={value}
+              />
             );
           } else {
-            const nodeName = Object.keys(node);
-            let newName = level + "[" + index + "]." + nodeName[0];
+            const nodeName = Object.keys(node)[0];
+            let newPath = path + "[" + index + "]." + nodeName;
 
-            if (newName.startsWith("[")) {
-              newName = newName.substring(4, newName.length);
+            if (newPath.startsWith("[")) {
+              newPath = newPath.substring(4, newPath.length);
             }
             return (
-              <div>
+              <div key={index + new Date().getTime()}>
                 <Node
-                  key={index}
-                  name={newName}
-                  position={index}
+                  key={"node" + index + new Date().getTime()}
+                  path={newPath}
                   callback={insertNode}
                   onDobleClick={insertLeaf}
                 />
-                {renderChilds(node[nodeName], newName)}
+                {renderChilds(node[nodeName], newPath)}
               </div>
             );
           }
